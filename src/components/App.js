@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div>
       {/* Do not remove the main div */}
-      <span>Temperature: <p style={input.temperature > 20? {color:"red"} : {color:"blue"} }>{ input.temperature}</p></span>
+      <p>Temperature: <span style={input.temperature > 20? {color:"red"} : {color:"blue"} }>{ input.temperature}</span></p>
     <p>Conditions: {input.conditions}</p>
  
     </div>
