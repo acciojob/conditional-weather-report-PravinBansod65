@@ -8,7 +8,7 @@ let input = { temperature: 25, conditions: "Sunny" };
   return (
     <div>
         {/* Do not remove the main div */}
-    <h2  style={input.temperature > 20? {color:"red"} : {color:"blue"} }> temperature : { input.temperature} </h2>
+    <p  style={input.temperature > 20? {color:"red"} : {color:"blue"} }> temperature : { input.temperature} </p>
         
     </div>
   )
