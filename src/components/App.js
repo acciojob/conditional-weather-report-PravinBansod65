@@ -10,7 +10,7 @@ const App = () => {
       {/* Do not remove the main div */}
       <p>Temperature: <span style={input.temperature > 20 ? { color: "red" } : { color: "blue" }}>{input.temperature}</span> Conditions: {input.conditions}</p>
 
-
+ 
     </div>
   ) 
 }
